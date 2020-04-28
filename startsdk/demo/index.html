@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>日志内容</title>
+    </head>
+    <body>
+        <textarea
+            style="display:block;margin-top:20px"
+            id="inputArea"
+            placeholder="Input log content"
+            rows="2"
+            cols="50"
+        ></textarea>
+        <button onclick="hello()"> hello </button>
+        <button onclick="hello()"> 实时发送 </button>
+        <button onclick="hello()"> 延迟日志</button>
+      
+        <script type="text/javascript" src="../build/sdk.min.js"></script>
+        <script>
+          function hello() {
+            const log = mylog.hello('are you OK?');
+            alert(log);
+          }
+        </script>
+    </body>
+</html>
