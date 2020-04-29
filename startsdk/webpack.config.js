@@ -1,6 +1,6 @@
 let path = require('path')
-let webpack = require('webpack')
-const DEMO_PATH = './demo';
+// let webpack = require('webpack')
+const DEMO = 'demo/';
 
 //正常版本 混淆版本
 module.exports = [
@@ -20,16 +20,17 @@ module.exports = [
       'sdk.min': './src/index.js'
     },
     output: {
-      path: path.resolve(__dirname, 'build'),
+      path: path.resolve(__dirname, 'demo'),
       filename: '[name].js',
       library: 'mylog',
       libraryTarget: "umd"
     },
+    watch: true,
     devServer: {
       hot: true,
-      contentBase: path.join(__dirname, 'demo/'),// DEMO_PATH,
-      // publicPath: DEMO_PATH, //指定资源文件引用的目录 
-      open: true
+      contentBase: 'demo/',// DEMO_PATH,
+      publicPath: DEMO, //指定资源文件引用的目录 
+      // open: true
     }
     // plugins: [
     //   new webpack.optimize.UglifyJsPlugin({

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": " node ./bin/build.js",
-    "start": "npm run build && webpack-dev-server"
+    "start": "npm run build && webpack-dev-server --content-base demo/",
+    "start2": "npm run build && webpack-dev-server --content-base demo/"
   },
   "author": "luz",
   "license": "MIT",

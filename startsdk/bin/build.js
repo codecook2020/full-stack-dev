@@ -22,6 +22,8 @@ const compileCallback = (er, stats) => {
     console.log('Build complete.\n')
 }
 
+console.log('webpack==>\n', webpackConfig);
+
 rm(path.resolve(__dirname, './dist'), err => {
     if (err) throw err
     let compiler = webpack(webpackConfig)

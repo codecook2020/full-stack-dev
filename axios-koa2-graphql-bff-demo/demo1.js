@@ -20,8 +20,6 @@ const resolvers = {
 const server = new ApolloServer({ 
   typeDefs, 
   resolvers, 
-  // formatResponse, 
- // playground: false,
 });
 
 const app = new Koa();

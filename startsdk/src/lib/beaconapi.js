@@ -1,6 +1,4 @@
-module.exports = {
-  beaconapi: function (word) {
-     console.log('hello');
-     return `hello-${word}`
-  }
+export function beaconapi(word) {  
+  console.log('hello--->\n');
+  return `hello-beaconapi:-${word}`
 }

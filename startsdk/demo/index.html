@@ -11,19 +11,28 @@
             style="display:block;margin-top:20px"
             id="inputArea"
             placeholder="Input log content"
-            rows="2"
-            cols="50"
+            rows="9"
+            cols="80"
         ></textarea>
         <button onclick="hello()"> hello </button>
         <button onclick="hello()"> 实时发送 </button>
         <button onclick="hello()"> 延迟日志</button>
       
-        <script type="text/javascript" src="../build/sdk.min.js"></script>
+        <script type="text/javascript" src="./sdk.min.js"></script>
         <script>
           function hello() {
-            const log = mylog.hello('are you OK?');
+            const log = mylog.beaconapi('are you OK?');
             alert(log);
           }
+        
+          function log() {
+
+          }
+
+          function asynclog() {
+
+          }
+
         </script>
     </body>
 </html>
