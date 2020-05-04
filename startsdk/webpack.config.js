@@ -27,9 +27,16 @@ module.exports = [
     },
     watch: true,
     devServer: {
+      disableHostCheck: true,
       hot: true,
       contentBase: 'demo/',// DEMO_PATH,
       publicPath: DEMO, //指定资源文件引用的目录 
+      host: '0.0.0.0',
+      port: 3001,
+      allowedHosts: [
+        'dev.qingting.com',
+        'local.qingting.fm'
+      ]
       // open: true
     }
     // plugins: [

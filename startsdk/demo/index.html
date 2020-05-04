@@ -25,8 +25,23 @@
             alert(log);
           }
         
-          function log() {
-
+          function demoSendLog() {
+            mylog.sendLog('https://cnzz.qingting.fm/logger', {
+              "data": { 
+                "event_id":"Expose.modal51",
+                "page_id": "H5",
+                "page_extend": {
+                // "bms": {
+                //     "project_id": "5e9fe510c0a93cb69f9c633c1",
+                //     "page_id": "5e9fe510278b575caac78e9c1"  
+                //   }
+                }
+              },
+              "label": "new_log",
+              "_id": "ActionEvent",
+              "page_id": "H5",
+              "_deviceId": "pctest123333333"
+            });
           }
 
           function asynclog() {

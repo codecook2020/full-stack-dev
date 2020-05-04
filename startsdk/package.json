@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": " node ./bin/build.js",
-    "start": "npm run build && webpack-dev-server --content-base demo/",
+    "start": "npm run build && webpack-dev-server --host 127.0.0.1 --port 3001  --content-base demo/",
     "start2": "npm run build && webpack-dev-server --content-base demo/"
   },
   "author": "luz",

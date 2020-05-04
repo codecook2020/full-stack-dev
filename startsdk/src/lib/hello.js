@@ -1,5 +1,5 @@
 module.exports = {
-  pushLog: function (word) {
+  hello: function (word) {
      console.log('hellow');
      return `hello---m->\n${word}`
   }
