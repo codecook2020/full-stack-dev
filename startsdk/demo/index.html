@@ -16,7 +16,7 @@
         ></textarea>
         <button onclick="hello()"> hello </button>
         <button onclick="hello()"> 实时发送 </button>
-        <button onclick="hello()"> 延迟日志</button>
+        <button onclick="asynclog()"> 延迟日志</button>
       
         <script type="text/javascript" src="./sdk.min.js"></script>
         <script>
@@ -45,7 +45,7 @@
           }
 
           function asynclog() {
-
+            mylog.asyncLog();
           }
 
         </script>

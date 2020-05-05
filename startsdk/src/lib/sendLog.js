@@ -1,8 +1,4 @@
 // 匹配beacon 和 xmr 学习axios
-
-// https://w3c.github.io/beacon/
-// https://juejin.im/post/5b694b5de51d4519700fa56a
-// https://juejin.im/post/5db66c4b6fb9a020386a32be
 function sendByBeaconApi(url, data, option) {  
   // 返回 ture 代表进入浏览器发送队列 返回false代表因为队列长度，数据过大而未能进入  max queue： 64kb
   // max data size 64kb https://github.com/w3c/beacon/issues/38
