@@ -27,13 +27,20 @@
     -  [ ] 流程控制
     - [ ] 函数
     - [ ] 错误处理
+  - ### 练习
+    - [半小时rust（入门必读）](https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/)
+    - [一题题练习](https://exercism.io/tracks/rust)
+    
 
 - ### 难点 （高阶语法）
- - [ ] 宏的使用（能用清晰的文字描述出来）
- - [ ] 借用/生命周期
- - [ ] 异步多线程开发
- - [ ] 闭包
- - []  宏
+  - [ ] 宏的使用（能用清晰的文字描述出来）
+  - [ ] 借用/生命周期
+  - [ ] 异步多线程开发
+  - [ ] 闭包
+  - []  宏
+- ### 练习
+  - [rust的算法与数据结构](https://www.hackertouch.com/data-structures-and-algorithms.html)
+
 
 - ### rust的开发方式
 
@@ -44,13 +51,17 @@
 - [ ] 函数式开发
 
   
-  
-## 二. 必读内容
+## 副本练习
+  https://exercism.io/tracks/rust
 
-[2020如何学rust](https://github.com/pretzelhammer/rust-blog/blob/master/posts/learning-rust-in-2020.md）
+## 必读内容
+
+[2020如何学rust](https://github.com/pretzelhammer/rust-blog/blob/master/posts/learning-rust-in-2020.md)
+
+[rust的算法与数据结构](https://www.hackertouch.com/data-structures-and-algorithms.html)
 
 
-## 三.rust生态（截止2020）
+## rust生态（截止2020）
 要求：了解每个项目具体应用场景即可。
 
 
