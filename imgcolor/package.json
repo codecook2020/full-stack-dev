@@ -1,0 +1,16 @@
+{
+  "name": "imgcolor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "imgcolor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "color-thief-node": "^1.0.3",
+    "pixel-util": "0.0.2"
+  }
+}
