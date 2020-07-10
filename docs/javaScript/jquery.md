@@ -14,6 +14,7 @@
 
 ### extend实现
 
+[extend的用法及实例](https://www.jquery123.com/jQuery.extend/)
 
 ### SizzleJS
 
@@ -37,4 +38,8 @@ https://github.com/cssmagic/blog/issues/59
 
 [jQuery3.1.1源码阅读笔记](https://github.com/songjinzhong/JQuerySource)
 
+extend
+https://gomakethings.com/vanilla-javascript-version-of-jquery-extend/
+
+实例
 

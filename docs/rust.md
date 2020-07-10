@@ -13,7 +13,7 @@
     - [ ] 为什么学习rust，它有哪些特色
     - [ ] 对比javascript差异
   - [ ] [测试加链接](./book/rust-cheats-cn.pdf)
-  - [ ] rust的注释 
+  - [ ] rust的注释
   
 - ### rust语言基础（基础语法）
   - ### 基础语法  
@@ -72,5 +72,7 @@
 
 
 ## 五. 参考资料
-  
+
 https://www.zhihu.com/question/34665842
+
+[javascript开发者的rust指南（作者系统写成系列可持续关注）](http://www.sheshbabu.com/posts/rust-for-javascript-developers-functions-and-control-flow/) 
